@@ -5,7 +5,8 @@ HOSTNAME=$(hostName)
 
 DISKFREE=$(df -hT)
 
-echo "date and time is $DATE"
+
+echo "script started executing $DATE"
 
 
 echo "this month calander $CAL"
