@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#there should be no space in between whil declaring variables
 PERSON1=Madhan
 PERSON2=Kethana
 
