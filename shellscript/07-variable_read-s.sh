@@ -5,6 +5,7 @@ PASSWORD=$2
 
 echo "please enter the password"
 read -s PASSWORD #THE VALUE ENTRES WILL BE AUTOMATICALLY ATTACHED TO password
-echo "username is $USERNAME, password is:$PASSWORD"
+
+#echo "username is $USERNAME, password is:$PASSWORD"
 
 
