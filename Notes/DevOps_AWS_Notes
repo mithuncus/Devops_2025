@@ -6,6 +6,17 @@ in security group we need to all the traffice
  in inbound traffic we allow all  and next we add ssh secured socket shell. and ssh port is 22 and then we add my laptop in aws console
  2. outbount traffic= outgoing traffic (eg after entering home ppl may go back in coming way)
 
+coding : Java, .net 
+
+scripting : shell, python, ansible
+
+
+In any language main concepts are 
+1.variables
+2.datatypes
+3.functions
+4.conditions
+5.loops
 
 
  GIT
@@ -29,3 +40,105 @@ shell script :
 to check the syntax of our shell script, we need to give the location of bash
 #!/bin/bash  ---> shebang
 shell script = bash script
+
+1.Variables
+x=1, y=2, z=3
+we derive formula and finally we submit values..
+
+DRY = Dont repeat yourself
+
+syntax 
+VARIABLE_NAME=VALUE
+
+person1=madhan
+person2=Kethu
+
+we shoudnt give spaces for variables is equal to value daggara
+not like below
+PERSON1 = madhan
+PERSON2 = Kethana
+
+it should be like below without spaces
+
+PRESON1=madhan
+PERSON2=Kethana
+
+usually give variable name in Captial letters but not its mandatory.
+
+change in a single location will effect everywhere automatically
+
+how do you run command in shell script and take output
+
+$(<command>)
+
+$(date)
+$(cal)
+
+that value we need to take it as variable
+DATE=$(date)
+
+#!/bin/bash
+DATE=$(date)
+echo "date and time is $DATE"
+
+#!/bin/bash
+DATE=$(date)
+CAL=$(cal)
+HOSTNAME=$(hostName)
+
+DISKFREE=$(df -hT)
+
+
+echo "script started executing $DATE"
+
+
+echo "this month calander $CAL"
+
+echo " hostname = $HOSTNAME"
+
+echo "diskfree $DISKFREE"
+
+we have concept called arguments
+
+arguments = args
+
+#arguments=args we can pass values through command,args will be in every programming language and also in every scripting language.
+#while running shellscripts we can pass arguments
+#command without arguments -->sh 05-variables_arguments\=args.sh  without values
+# command with arguments -->sh 05-variables_arguments\=args.sh JaySriRam sita
+
+
+PERSON1=$1
+PERSON2=$2
+
+echo "$PERSON1: Hello $PERSON2, Good Morning "
+echo "$PERSON2: Hi $PERSON1 , Very Good Morning"
+echo "$PERSON1: How are you $PERSON2?"
+echo "$PERSON2: I am good $PERSON1, How are you"
+
+To connect to any external system we need to give username and password
+
+#!/bin/bash
+USERNAME=$1
+PASSWORD=$2
+
+echo "username is $USERNAME, password is:$PASSWORD"
+
+
+password should be hide always
+
+so we use read command 
+==>read --help command will dispay option abou read
+#!/bin/bash
+echo "please enter the username"
+read USERNAME #THE VALUE ENTRES WILL BE AUTOMATICALLY ATTACHED TO USERNAME
+PASSWORD=$2
+
+echo "username is $USERNAME, password is:$PASSWORD"
+
+
+we use only read -s for not displaying username and password
+
+
+data types:
+------------
