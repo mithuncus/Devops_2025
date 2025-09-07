@@ -1,7 +1,7 @@
 In AWS 
 key stores are two types 1. public and 2.private key stores
 firewall is nothing but security group in aws.
-in security group we need to all the traffice 
+in security group we need to allow all the traffice, generic
  1. inbound traffic = incomining traffic
  in inbound traffic we allow all  and next we add ssh secured socket shell. and ssh port is 22 and then we add my laptop in aws console
  2. outbount traffic= outgoing traffic (eg after entering home ppl may go back in coming way)
@@ -128,7 +128,7 @@ echo "username is $USERNAME, password is:$PASSWORD"
 password should be hide always
 
 so we use read command 
-==>read --help command will dispay option abou read
+==>read --help command will dispay option about read
 #!/bin/bash
 echo "please enter the username"
 read USERNAME #THE VALUE ENTRES WILL BE AUTOMATICALLY ATTACHED TO USERNAME
