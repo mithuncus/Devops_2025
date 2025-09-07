@@ -140,5 +140,19 @@ echo "username is $USERNAME, password is:$PASSWORD"
 we use only read -s for not displaying username and password
 
 
-data types:
+data types:in shell script data types are not that much important, everything shell script take care chesthundhi
 ------------
+
+Arrays:insted of storing one variable multiple values store chayadum అన్నమాట we can retive when we want. Like 
+
+FRUITS=("Apple" "Banana" "Mango") 
+
+ Echo "First value: ${FRUITS[0]}"
+Echo" second value: ${FRUITS[1]}"
+Echo" third value: ${FRUITS[2]}"
+
+If we need all fruits we use @ as shown below 
+
+Echo"all fruits: ${FRUITS [@]}"
+
+
