@@ -154,5 +154,17 @@ Echo" third value: ${FRUITS[2]}"
 If we need all fruits we use @ as shown below 
 
 Echo"all fruits: ${FRUITS [@]}"
+================================
+Conditions: program lo Kani script lo gani any Desi ion thesukovalsinappdu we need to use conditions
+
+If (expression) {. } 
+
+
+
+
+
+
+
+
 
 
