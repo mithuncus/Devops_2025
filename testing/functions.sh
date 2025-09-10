@@ -15,7 +15,7 @@ FUNCTION_NAME(){
 ##Generally we keep FUNCTIONS under VARIABLE in the script/programming   
 ID=$(id -u)
 VALIDATE(){
-    if [$? -ne 0]
+    if [ $? -ne 0 ]
     then
     echo " installing  is failed"
     exit 1 # we are asking script to stop here if its failed 

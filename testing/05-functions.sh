@@ -5,7 +5,7 @@ ID=$(id -u)
 
 VALIDATE(){
    
-if($1 -ne 0)
+if [ $1 -ne 0 ]
 then
 echo " installing $2 failed"
 exit 1
@@ -13,7 +13,7 @@ else
 echo "installing $2 success"
 fi 
 }
-if($ID -ne 0)
+if [ $ID -ne 0 ]
 then
 echo "ERROR :: pls try login as root user"
 exit 1
