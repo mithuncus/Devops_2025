@@ -14,7 +14,7 @@ yum install mysql -y
 ## in shell script if script run into any error it wont stop,thats the main drawback when compared with other scripts and programming languages, so we got EXIT status concept and its improtant 
 ## in any programming or scripting language we have 
 ## VARIABLES
-### Arrays ( insted of one value in variable we will have multiple values)like FRUITS=("Apple" "graps" "mangos") 
+### Arrays ( insted of one value in variable we will have multiple values)like FRUITS=("Apple" "grapes" "mangos") 
 ## so first value we represent with 0 (zero that is Apple) if value is one then it grapes, if value is 2 means mangos
 
 ##Data types (not much use in shell script)
