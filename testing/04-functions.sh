@@ -12,12 +12,13 @@ else
 echo "installing  success"
 fi 
 }
+
 if [ $ID -ne 0 ] 
 then
 echo "ERROR :: pls try login as root user"
 exit 1
 else
-echo "script san success with root user"
+echo "script ran success with root user"
 if
 
 yum install mysql -y 
