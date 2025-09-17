@@ -22,7 +22,7 @@ VALIDATE(){
     else
     echo " installing  is success"
 
-    if
+    fi
 }
 if[ $ID -ne 0 ]
 then 
