@@ -63,7 +63,7 @@ VALIDATE(){
     else
     echo " installing  is $2 success"
 
-    if
+    fi
 }
 if[ $ID -ne 0 ]
 then 
