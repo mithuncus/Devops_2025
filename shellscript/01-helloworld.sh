@@ -1,6 +1,12 @@
 #!/bin/bash
 
-echo "hello world I am learning devops, shell scripting "
+
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
+
+echo -e "hello world I am learning $G devops,$N shell scripting "
 
 echo "date"
 
